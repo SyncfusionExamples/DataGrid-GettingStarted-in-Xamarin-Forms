@@ -3,7 +3,7 @@
 ## About the sample
 This repository contains the sample to help you get started with the Syncfusion's DataGrid control for Xamarin.Forms.
 
-Create a new BlankApp (Xamarin.Forms.Portable) application in Xamarin Studio or Visual Studio for Xamarin.Forms.
+Create a new BlankApp (Xamarin.Forms.NET Standard) application in Xamarin Studio or Visual Studio for Xamarin.Forms.
 Import the SfDataGrid control namespace Syncfusion.SfDataGrid.XForms and set the SfDataGrid control to the ContentPage.
 
 ```xml
