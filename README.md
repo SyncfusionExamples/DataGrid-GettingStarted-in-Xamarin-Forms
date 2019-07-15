@@ -14,7 +14,7 @@ Import the SfDataGrid control namespace Syncfusion.SfDataGrid.XForms and set the
              xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
              xmlns:local="clr-namespace:GettingStarted;assembly=GettingStarted"
              x:Class="GettingStarted.MainPage">
-  <syncfusion:SfListView x:Name="dataGrid" />
+  <syncfusion:SfDataGrid x:Name="dataGrid" />
 </ContentPage>
 
 ```
