@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.Android", "GettingStarted\GettingStarted.Android\GettingStarted.Android.csproj", "{D00CD49B-91D6-44B4-9CD6-88E4A4321F70}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.iOS", "Getti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.UWP", "GettingStarted\GettingStarted.UWP\GettingStarted.UWP.csproj", "{6D44DBB1-DFCE-4583-BB06-BF792536A650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted\GettingStarted.csproj", "{C1DBAE5E-1746-41EC-8844-F2E887A71324}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted\GettingStarted.csproj", "{C1DBAE5E-1746-41EC-8844-F2E887A71324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
