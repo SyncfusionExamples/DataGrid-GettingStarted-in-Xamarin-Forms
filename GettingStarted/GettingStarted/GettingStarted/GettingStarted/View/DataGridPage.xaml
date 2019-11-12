@@ -12,27 +12,5 @@
     <sfgrid:SfDataGrid x:Name="sfGrid" 
                        AllowSorting="True"
                        ColumnSizer="Star"
-                       ItemsSource="{Binding OrdersInfo}" 
-                       VerticalOverScrollMode="None">
-        <!--<sfgrid:SfDataGrid.GroupColumnDescriptions>
-            <sfgrid:GroupColumnDescription ColumnName="ShipCountry"/>
-        </sfgrid:SfDataGrid.GroupColumnDescriptions>-->
-        
-        <sfgrid:SfDataGrid.CaptionSummaryRow>
-            <sfgrid:GridGroupSummaryRow Title="Total Salary :{TotalSalary} for {ProductCount} members"
-                           ShowSummaryInRow="True">
-                <sfgrid:GridGroupSummaryRow.SummaryColumns>
-                    <sfgrid:GridSummaryColumn Name="TotalSalary"
-                                      Format="{}{Sum:c}"
-                                      MappingName="OrderID"
-                                      SummaryType="DoubleAggregate" />
-                    <sfgrid:GridSummaryColumn Name="ProductCount"
-                                      Format="{}{Count}"
-                                      MappingName="OrderID"
-                                      SummaryType="CountAggregate" />
-                </sfgrid:GridGroupSummaryRow.SummaryColumns>
-            </sfgrid:GridGroupSummaryRow>
-        </sfgrid:SfDataGrid.CaptionSummaryRow>
-    </sfgrid:SfDataGrid>
-
+                       ItemsSource="{Binding OrdersInfo}" />
 </ContentPage>
