@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="17.3.0.26" />
+    <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="18.1.0.42" />
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
   </ItemGroup>
 

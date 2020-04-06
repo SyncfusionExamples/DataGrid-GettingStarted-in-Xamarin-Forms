@@ -10,7 +10,7 @@ namespace GettingStarted
         public App()
         {
             InitializeComponent();
-
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MDAxQDMxMzgyZTMxMmUzMEovYURla2tjaGVWblNLV21ZWnM0MWZ5cjBXYXpRa05oeE5wZHpJUGVDTms9");
             MainPage = new DataGridPage();
         }
 

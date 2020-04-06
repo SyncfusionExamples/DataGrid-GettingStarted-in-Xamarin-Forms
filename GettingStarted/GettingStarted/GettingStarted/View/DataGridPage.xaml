@@ -9,8 +9,17 @@
         <local:ViewModel/>
     </ContentPage.BindingContext>
 
+    <StackLayout Orientation="Vertical">
     <sfgrid:SfDataGrid x:Name="sfGrid" 
                        AllowSorting="True"
                        ColumnSizer="Star"
+                       AllowDraggingRow="True"
+                       SelectedIndex="2"
+                       AllowResizingColumn="True"
+                       SelectionMode="Single"
+                       AllowEditing="True"
+                       NavigationMode="Cell"
+                       AllowKeyboardNavigation="True"
                        ItemsSource="{Binding OrdersInfo}" />
+    </StackLayout>
 </ContentPage>
